@@ -1,4 +1,4 @@
-package jeonjinwoo;
+package jeonjinwoo.programmers.lv2;
 
 import java.util.Stack;
 
