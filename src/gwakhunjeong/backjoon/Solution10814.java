@@ -10,9 +10,7 @@ public class Solution10814 {
     public static void main(String[] args) throws IOException {
         //입력
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
         int num = Integer.parseInt(br.readLine()); //IOException
-
         String[][] arr = new String[num][2];
 
         //띄어쓰기를 구분자로 2차원 배열에 {나이, 이름} 입력
@@ -40,6 +38,5 @@ public class Solution10814 {
         for (int i = 0; i < num; i++) {
             System.out.println(arr[i][0] + " " + arr[i][1]);
         }
-
     }
 }
